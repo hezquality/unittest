@@ -26,5 +26,10 @@ public class TestVoiture {
 		assertEquals("rapide", vvoiture.vitesse);
 		System.out.println("La voiture roule avec une vitesse:\n --> " + vvoiture.vitesse);
 	}
+	@Test
+	void voituretresrapideTest() {
+		assertEquals("rapide", vvoiture.vitesse);
+		System.out.println("La voiture roule avec une vitesse:\n --> " + vvoiture.vitesse);
+	}
 
 }
